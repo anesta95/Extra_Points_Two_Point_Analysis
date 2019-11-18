@@ -454,7 +454,7 @@ fieldGoals %>%
   filter(Amount > 18) %>% 
   arrange(desc(Percentage))
 
-BestDistanceKickers <- c("Robbie Gould", "Matt Bryant", "Adam Vinatieri", "Jake Elliott", "Phil Dawson", "Chris Boswell", "Justin Tucker")
+BestDistanceKickers <- c("Robbie Gould", "Matt Bryant", "Adam Vinatieri")
 BestDistanceKickers <- append(BestDistanceKickers, "NFL Average") %>% sort()
 
 bestKickers <- fieldGoals %>% 
